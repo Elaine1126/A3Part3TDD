@@ -23,8 +23,8 @@ public class MyQuadraticEqnTest {
 		//roots = -b +/- sqrt(b^2-4ac)/2a
 		double root1 = (-6 + Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1);
 		double root2 = (-6 - Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1); 
-		assertEquals(root1, obj.findroots((-6 + Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1)));
-		assertEquals(root2, obj.findroots((-6 + Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1)));
+		assertEquals(root1, obj.findroot1((-6 + Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1)));
+		assertEquals(root2, obj.findroot2((-6 - Math.sqrt((6 * 6) - (4 * 1 * 9))) / (2*1)));
 	}
 
 }
